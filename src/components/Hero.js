@@ -68,7 +68,7 @@ function Hero() {
             <span className='flex flex-col justify-center items-center'>
             <Image src='/assets/images/image2.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
             <p className='text-[500] text-[28px] text-center'>Originality</p>
-            <p className='text-center'>I'm not afraid to think outside the box.</p>
+            <p className='text-center'>I'm not afraid to think outside the boxs.</p>
             </span>
           </div>
       </div>
