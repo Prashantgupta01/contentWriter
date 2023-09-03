@@ -4,7 +4,7 @@ import React from 'react'
 function Hero() {
   return (
     <div className=" relative">
-      <Image src={"/assets/images/Union.png"} height="0" width="0" className='absolute w-full max-h-[850px]' />
+      <Image src={"/assets/images/Union.png"} alt='logo' height="0" width="0" className='absolute w-full max-h-[850px]' />
       <div className='text-center pt-10'>
         <p className='font-[400] text-[48px]'>Writing Website Copies That Brings Sales</p>
         <p className='font-[400] text-[18px]'>I have helped businesses bring 40% more leads with their online presence.<br />
@@ -14,7 +14,7 @@ function Hero() {
         </div>  
       </div>
       <div className=''>
-        <Image src={"/assets/images/image6.png"} width="1000" height="1000" />
+        <Image src={"/assets/images/image6.png"} alt='logo9' width="1000" height="1000" />
       </div>
       <div className='m-20'></div>
       <div className='flex flex-col md:gap-4 lg:flex-row justify-center items-center lg:gap-5 m-auto px-5 md:px-24 lg:px-36'>
@@ -24,7 +24,7 @@ function Hero() {
         <div className='basis-6/12'>
           <p className='text-[400] text-[48px] text-[#0D1FA1]'>Why Me</p>
           <p className='text-[400] text-[28px]'>Your Success, My Priority</p>
-          <p className='text-[400] text-[18px]'>I don't just write, I craft experiences. Choosing me means choosing a partner committed to delivering exceptional content that aligns with your brand's goals and drives real results.
+          <p className='text-[400] text-[18px]'>I dont just write, I craft experiences. Choosing me means choosing a partner committed to delivering exceptional content that aligns with your brands goals and drives real results.
           </p>
 
           <div className='mt-5'>
@@ -63,12 +63,12 @@ function Hero() {
             <span className='flex flex-col justify-center items-center'>
             <Image src='/assets/images/image3.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
             <p className='text-[500] text-[28px] text-center'>Sales Machine Copy</p>
-            <p className='text-center'>I'm the sales copywriter who can<br/> help you take your business to the<br /> next level.</p>
+            <p className='text-center'>I am the sales copywriter who can<br/> help you take your business to the<br /> next level.</p>
             </span>
             <span className='flex flex-col justify-center items-center'>
             <Image src='/assets/images/image2.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
             <p className='text-[500] text-[28px] text-center'>Originality</p>
-            <p className='text-center'>I'm not afraid to think outside the boxs.</p>
+            <p className='text-center'>I am not afraid to think outside the boxs.</p>
             </span>
           </div>
       </div>
