@@ -49,7 +49,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className='basis-6/12'>
-                    <p className='text-[400] text-[20px]'>Ready to elevate your brand's communication game?</p>
+                    <p className='text-[400] text-[20px]'>Ready to elevate your brands communication game?</p>
                     <p className='text-[500] text-[48px] text-[#0D1FA1]'>Get In Touch With Me</p>
                     <form>
                         <div className='flex flex-wrap gap-4'>
