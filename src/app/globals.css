@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,200&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +20,24 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ font-family: Roboto Serif;
 }
+
+/* .curved-border{
+  position: relative;
+} */
+
+/* .curved-border:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 300px 1550px;
+  border-bottom-right-radius: 100%;
+  z-index: -1;
+  border-color: transparent transparent #F8F8F8 transparent;
+  border-color: black;
+} */
