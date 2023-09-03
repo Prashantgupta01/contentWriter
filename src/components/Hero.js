@@ -4,7 +4,7 @@ import React from 'react'
 function Hero() {
   return (
     <div className=" relative">
-      <img src={"/assets/images/Union.png"} className='absolute w-full max-h-[850px]' />
+      <Image src={"/assets/images/Union.png"} height="0" width="0" className='absolute w-full max-h-[850px]' />
       <div className='text-center pt-10'>
         <p className='font-[400] text-[48px]'>Writing Website Copies That Brings Sales</p>
         <p className='font-[400] text-[18px]'>I have helped businesses bring 40% more leads with their online presence.<br />
@@ -19,7 +19,7 @@ function Hero() {
       <div className='m-20'></div>
       <div className='flex flex-col md:gap-4 lg:flex-row justify-center items-center lg:gap-5 m-auto px-5 md:px-24 lg:px-36'>
         <div className='basis-6/12'>
-          <img src='/assets/images/Maskgroup.png' alt='logo' className='md:max-h-[452px] md:max-w-[452px] h-auto w-auto' />
+          <Image src='/assets/images/Maskgroup.png' alt='logo' width={2000} height={2000} className='md:min-h-[452px] md:min-w-[452px] h-auto w-auto' />
         </div>
         <div className='basis-6/12'>
           <p className='text-[400] text-[48px] text-[#0D1FA1]'>Why Me</p>
@@ -39,10 +39,10 @@ function Hero() {
               </svg>
             </span>
             <span>
-              <img src='/assets/images/Group.png' alt='insta' className='' />
+              <Image src='/assets/images/Group.png' alt='insta' className='' width={41} height={41} />
             </span>
             <span>
-            <img src='/assets/images/Twitter Dev - png.png' alt='twitter' className='' width="41" height="41" />
+            <Image src='/assets/images/Twitter Dev - png.png' alt='twitter' className='' width="41" height="41" />
 
             </span>
 
@@ -55,18 +55,18 @@ function Hero() {
       <div className='m-auto px-5 md:px-14 lg:px-36 md:flex justify-between items-center md:items-start md:gap-5'>
             <span className='flex flex-col justify-center items-center'>
               <div className='flex flex-col items-center'>
-                <img src='/assets/images/image1.png' alt='spark' />
+                <Image src='/assets/images/image1.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
             <p className='text-[500] text-[28px]'>Faster Delivery</p>
             <p className='text-center'>Get your copy written fast and to <br/> your satisfaction.</p>
               </div>
             </span>
             <span className='flex flex-col justify-center items-center'>
-            <img src='/assets/images/image3.png' alt='spark' />
+            <Image src='/assets/images/image3.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
             <p className='text-[500] text-[28px] text-center'>Sales Machine Copy</p>
             <p className='text-center'>I'm the sales copywriter who can<br/> help you take your business to the<br /> next level.</p>
             </span>
             <span className='flex flex-col justify-center items-center'>
-            <img src='/assets/images/image2.png' alt='spark' />
+            <Image src='/assets/images/image2.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
             <p className='text-[500] text-[28px] text-center'>Originality</p>
             <p className='text-center'>I'm not afraid to think outside the box.</p>
             </span>
