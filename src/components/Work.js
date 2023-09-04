@@ -8,7 +8,7 @@ function Work() {
          <p className='text-[400] text-[28px] text-center'>My Proud Projects</p>
          <p className='text-[400] text-[48px] text-[#0D1FA1] text-center'>Work Samples</p>
 
-         <div className='flex flex-wrap  mt-10 lg:justify-between justify-center  '>
+         <div className='flex flex-wrap  mt-10 lg:justify-between justify-center md:gap-6  '>
                   <div className='basis-5/12 flex flex-col items-center mt-10 md:mt-5'>
                       <div className="w-auto md:w-96 md:h-72 flex-col justify-start items-center gap-6 inline-flex">
                           <div className="md:w-96 w-60 md:h-96 h-60 relative">
