@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
+import Industrial from '@/components/Industrial'
 import Service from '@/components/Service'
 import Slider from '@/components/Slider'
 import Work from '@/components/Work'
@@ -15,6 +16,7 @@ export default function Home() {
        </div>
        
         <Service />
+        <Industrial />
        <div className='' id='about-section'>
         {/* <About /> */}
        </div>
