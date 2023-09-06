@@ -10,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay,  Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
 function Slider() {
@@ -27,17 +27,15 @@ function Slider() {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+       
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-        <div className='mx-auto my-auto px-20 py-5 flex gap-2'>
+        <div className='mx-auto my-auto  py-5 flex gap-10'>
             <div className='basis-6/12 flex justify-center'>
-            <Image className="md:w-64 w-auto md:h-96 h-auto "  width={1000} height={1000} alt='logo' src="/assets/images/image10.png" />
+            <Image className="md:w-full w-auto md:h-full h-auto cover "  width={1000} height={1000} alt='logo' src="/assets/images/Mask group-2.png" />
             </div>
             <div className='basis-6/12 '>
             <p className='text-[400] text-[28px]'>Devasheesh</p>
@@ -47,9 +45,9 @@ function Slider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='mx-auto my-auto px-20 py-5 flex gap-2'>
+          <div className='mx-auto my-auto  py-5 flex gap-10'>
             <div className='basis-6/12 flex justify-center'>
-            <Image className="md:w-64 w-auto md:h-96 h-auto" width={1000} height={1000} alt='logo' src="/assets/images/image11.png" />
+            <Image className="md:w-full w-auto md:h-full h-auto cover" width={1000} height={1000} alt='logo' src="/assets/images/Mask group-1.png" />
             </div>
             <div className='basis-6/12 '>
             <p className='text-[400] text-[28px] pt-4'>Aashna Arora</p>
@@ -59,14 +57,14 @@ function Slider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='mx-auto my-auto px-20 py-5 flex gap-2'>
+          <div className='mx-auto my-auto  py-5 flex gap-10'>
             <div className='basis-6/12 flex justify-center'>
-            <Image className="md:w-64 w-auto md:h-96 h-auto" width={1000} height={1000} alt='logo' src="/assets/images/image12.png" />
+            <Image className="md:w-full w-auto md:h-full h-auto cover" width={1000} height={1000} alt='logo' src="/assets/images/Mask group.png" />
             </div>
             <div className='basis-6/12 '>
             <p className='text-[400] text-[28px]'>Bhavana Watti✨</p>
                   <p className='text-[400] text-[20px]'>Social Media Strategist  </p>
-                  <p className='text-[400] text-[18px] pt-4'>&quot I highly recommend Prathamesh for his work on the company &apos s website. He has written exclusive blog contents that are well-researched and informative. He is also humble and polite, and he is always willing to discuss the details of his work. I would definitely work with him again. &quot</p>
+                  <p className='text-[400] text-[18px] pt-4'> I highly recommend Prathamesh for his work on the company &apos s website. He has written exclusive blog contents that are well-researched and informative. He is also humble and polite, and he is always willing to discuss the details of his work. I would definitely work with him again.  </p>
             </div>
           </div>
         </SwiperSlide>

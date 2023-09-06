@@ -55,20 +55,23 @@ function Contact() {
                         <div className='flex flex-wrap gap-4'>
                             <div className='basis-5/12 flex flex-col'>
                                 <label className='text-[300] text-[16px]'>Full Name</label>
-                                <input type='text' className='border border-black rounded-md' />
+                                <input type='text' className='border border-black rounded-md p-2' placeholder='Name Please...' />
                             </div>
                             <div className='basis-5/12 flex flex-col'>
                                 <label className='text-[300] text-[16px]'>Email</label>
-                                <input type='email' className='border border-black rounded-md' />
+                                <input type='email' className='border border-black rounded-md p-2' placeholder='Abcd1234@xyz.com' />
                             </div>
                             <div className='basis-5/12 flex flex-col'>
                                 <label className='text-[300] text-[16px]'>Phone Number</label>
-                                <input type='Number' className='border border-black rounded-md' />
+                                <input type='Number' className='border border-black rounded-md p-2' placeholder='PH. Number' />
                             </div>
                             <div className='basis-5/12'></div>
                             <div className='basis-10/12 flex flex-col'>
-                                <label className='text-[300] text-[16px]'>Full Name</label>
-                                <textarea rows={4} className='border border-black rounded-md' />
+                                {/* <label className='text-[300] text-[16px]'></label> */}
+                                <textarea rows={4} className='border border-black rounded-md p-2' placeholder='Type your message' />
+                            </div>
+                            <div className=' w-full'>
+                                <button className='border rounded-md border-black px-3 py-1 text-white bg-black'>Submit</button>
                             </div>
                         </div>
                     </form>

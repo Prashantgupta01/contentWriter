@@ -10,9 +10,9 @@ function Navbar() {
         <div >
             <ul className='hidden md:flex gap-7 font-serif'>
                 <li className='font-serif'><Link href="#Home-section">Home</Link></li>
-                <li className='font-serif'><Link href="#work-section">Work</Link></li>
                 <li className='font-serif'><Link href="#about-section">About Me</Link></li>
                 <li className='font-serif'><Link href="#service-section">Services</Link></li>
+                <li className='font-serif'><Link href="#work-section">Work</Link></li>
             </ul>
         </div>
         <div>

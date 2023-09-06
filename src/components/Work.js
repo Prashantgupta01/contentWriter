@@ -5,7 +5,7 @@ function Work() {
   return (
     <div className='px-10 md:px-24 lg:px-36'>
         <div className='mt-5 relative'>
-         <p className='text-[400] text-[28px] text-center'>My Proud Projects</p>
+         <p className='text-[400] text-[28px] text-center' id="work-section">My Proud Projects</p>
          <p className='text-[400] text-[48px] text-[#0D1FA1] text-center'>Work Samples</p>
 
          <div className='flex flex-wrap  mt-10 lg:justify-between justify-center md:gap-6  '>

@@ -13,8 +13,8 @@ function Hero() {
           <button className='border border-black px-3 py-1 bg-black text-white rounded-md'>Book A Call</button>  
         </div>  
       </div>
-      <div className=''>
-        <Image src={"/assets/images/image6.png"} alt='logo9' width="1000" height="1000" />
+      <div className='flex justify-center'>
+        <Image src={"/assets/images/image113.png"} alt='logo9' width="1000" height="1000" className='max-h-[500px] max-w-[500px]'  />
       </div>
       <div className='m-20'></div>
       <div className='flex flex-col md:gap-4 lg:flex-row justify-center items-center lg:gap-5 m-auto px-5 md:px-24 lg:px-36'>
@@ -52,21 +52,21 @@ function Hero() {
         </div>
       </div>
       <div className='m-16'></div>
-      <div className='m-auto px-5 md:px-14 lg:px-36 md:flex justify-between items-center md:items-start md:gap-5'>
+      <div id='work-section' className='m-auto px-5 md:px-14 lg:px-36 md:flex justify-between items-center md:items-start md:gap-5'>
             <span className='flex flex-col justify-center items-center'>
-              <div className='flex flex-col items-center'>
-                <Image src='/assets/images/image1.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
+              <div className='flex flex-col items-center justify-center'>
+                <Image src='/assets/images/image1.png' alt='spark' width={200} height={200} className='h-[110px] w-[110px]' />
             <p className='text-[500] text-[28px]'>Faster Delivery</p>
             <p className='text-center'>Get your copy written fast and to <br/> your satisfaction.</p>
               </div>
             </span>
             <span className='flex flex-col justify-center items-center'>
-            <Image src='/assets/images/image3.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
+            <Image src='/assets/images/image3.png' alt='spark' width={200} height={200} className='h-[120px] w-[230px]' />
             <p className='text-[500] text-[28px] text-center'>Sales Machine Copy</p>
             <p className='text-center'>I am the sales copywriter who can<br/> help you take your business to the<br /> next level.</p>
             </span>
             <span className='flex flex-col justify-center items-center'>
-            <Image src='/assets/images/image2.png' alt='spark' width={200} height={200} className='h-auto w-auto' />
+            <Image src='/assets/images/image2.png' alt='spark' width={200} height={200} className='h-[169px] w-[169px]' />
             <p className='text-[500] text-[28px] text-center'>Originality</p>
             <p className='text-center'>I am not afraid to think outside the boxs.</p>
             </span>

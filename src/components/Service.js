@@ -7,10 +7,10 @@ function Service() {
       <p className='m-20'></p>
       <p className='text-[400] text-[48px] text-[#0D1FA1] text-center'>Services I Offer</p>
       <p className='text-[400] text-[28px] text-center'>Your Success, My Priority</p>
-      <div className='flex flex-col md:flex-row items-center md:items-start   justify-center md:justify-between mt-10 gap-3'>
+      <div className='flex flex-col md:flex-row items-center md:items-start   justify-center md:justify-around mt-10 gap-3'>
         <span>
 
-          <div className="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow lg:h-[444px]">
+          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow lg:h-[444px]">
             <a href="#" >
               <Image width={500} height={500} className="rounded-t-lg h-auto w-auto" src="/assets/images/image4.png" alt="" />
             </a>
@@ -25,7 +25,7 @@ function Service() {
 
         </span>
         <span>
-          <div className="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow lg:h-[444px]">
+          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow lg:h-[444px]">
             <a href="#" >
               <Image width={500} height={100} className="rounded-t-lg h-auto w-auto" src="/assets/images/image5.png" alt="" />
             </a>
@@ -40,7 +40,7 @@ function Service() {
 
         </span>
         <span>
-          <div className="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow lg:h-[444px]">
+          <div className="flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow lg:h-[444px]">
             <a href="#" >
               <Image width={500} height={100} className="rounded-t-lg h-auto w-auto" src="/assets/images/image7.png" alt="" />
             </a>

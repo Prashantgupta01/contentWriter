@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <main>
-      <div className='mx-auto lg:px-36 md:px-24 py-5 bg-[] border-t border-black mt-10'>
-       <div className='flex flex-col md:flex-row justify-center items-center'>
+    <main className='bg-[#F3F4FA]'>
+      <div className='mx-auto lg:px-36 md:px-24 py-5 px-8  border-t border-black mt-10 '>
+       <div className='flex flex-col md:flex-row md:justify-center md:items-center'>
         <div className='basis-6/12'>
           <p className='text-[500] text-[28px]'>Prathamesh.Writes</p>
           <p className='text-[400] text-[17px]'>Writing Copies That Turn Your<br /> Website into Sales Machine!</p>

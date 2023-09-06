@@ -12,18 +12,18 @@ export default function Home() {
   return (
     <main className="">
        <div className=" w-full h-auto curved-border " id='Home-section'>
-        <Hero />
+        <Hero id='Home-section' />
        </div>
        
         <Service />
-        <Industrial />
+        <Industrial  id="service-section" />
        <div className='' id='about-section'>
         {/* <About /> */}
        </div>
-       <Work />
+       <Work  />
        <Slider />
        {/* <Slider2 /> */}
-       <Contact />
+       <Contact i />
     </main>
   )
 }
