@@ -41,3 +41,25 @@ body {
   border-color: transparent transparent #F8F8F8 transparent;
   border-color: black;
 } */
+
+.swiper {
+  /* width: 85%; */
+  height: 320px;
+}
+
+/* .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+} */
+ 
+:root{
+
+  --swiper-theme-color: black !important
+}
+
+

@@ -2,8 +2,10 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import Service from '@/components/Service'
+import Slider from '@/components/Slider'
 import Work from '@/components/Work'
-import Image from 'next/image'
+// import Slider2 from '@/components/slider2'
+// import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         {/* <About /> */}
        </div>
        <Work />
+       <Slider />
+       {/* <Slider2 /> */}
        <Contact />
     </main>
   )

@@ -13,7 +13,7 @@ function Work() {
                       <div className="w-auto md:w-96 md:h-72 flex-col justify-start items-center gap-6 inline-flex">
                           <div className="md:w-96 w-60 md:h-96 h-60 relative">
                               <div className="md:w-96 w-60 h-60 md:left-[41.94px] top-0 absolute origin-top-left md:rotate-[5.46deg] bg-zinc-300 rounded-2xl" />
-                              <Image width={400} height={400} className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image8.png" />
+                              <Image width={400} height={400} alt='logo' className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image8.png" />
                           </div>
 
 
@@ -35,7 +35,7 @@ function Work() {
                       <div className="w-auto md:w-96 md:h-72 flex-col justify-start items-center gap-6 inline-flex">
                           <div className="md:w-96 w-60 md:h-96 h-60 relative">
                               <div className="md:w-96 w-60 h-60 md:left-[41.94px] top-0 absolute origin-top-left md:rotate-[5.46deg] bg-zinc-300 rounded-2xl" />
-                              <Image width={400} height={400} className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image9.png" />
+                              <Image width={400} height={400} alt='logo' className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image9.png" />
                           </div>
 
 
@@ -58,7 +58,7 @@ function Work() {
                       <div className="w-auto md:w-96 md:h-72 flex-col justify-start items-center gap-6 inline-flex">
                           <div className="md:w-96 w-60 md:h-96 h-60 relative">
                               <div className="md:w-96 w-60 h-60 md:left-[41.94px] top-0 absolute origin-top-left md:rotate-[5.46deg] bg-zinc-300 rounded-2xl" />
-                              <Image width={400} height={400} className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image8.png" />
+                              <Image width={400} height={400} alt='logo' className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image8.png" />
                           </div>
 
 
@@ -80,7 +80,7 @@ function Work() {
                       <div className="w-auto md:w-96 md:h-72 flex-col justify-start items-center gap-6 inline-flex">
                           <div className="md:w-96 w-60 md:h-96 h-60 relative">
                               <div className="md:w-96 w-60 h-60 md:left-[41.94px] top-0 absolute origin-top-left md:rotate-[5.46deg] bg-zinc-300 rounded-2xl" />
-                              <Image width={400} height={400} className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image9.png" />
+                              <Image width={400} height={400} alt='logo' className="md:w-96 w-60 h-60 md:left-[26.06px] top-[-13.15px] absolute origin-top-left md:rotate-[5.69deg] rounded-2xl" src="/assets/images/image9.png" />
                           </div>
 
 
