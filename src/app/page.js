@@ -23,7 +23,7 @@ export default function Home() {
        <Work  />
        <Slider />
        {/* <Slider2 /> */}
-       <Contact i />
+       <Contact id="contact Me" />
     </main>
   )
 }
